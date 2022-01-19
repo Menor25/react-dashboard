@@ -1,12 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import "./userList.css";
-import { DataGrid } from '@mui/x-data-grid';
-import userImage from "./images/user.jpg"
-import { DeleteOutline } from "@material-ui/icons";
 import {Link} from "react-router-dom";
 import {Card, CardBody, CardHeader, Col, Row, Table} from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-import Tables from "../../compnents/table/Tables";
+
 
 import axios from 'axios';
 
