@@ -11,7 +11,7 @@ import Tables from "../../compnents/table/Tables";
 import axios from 'axios';
 
 function UserList() {
-    const [data, setData] = useState([]);
+    const [userData, setData] = useState([]);
 
     const getData = () => {
         axios.get('/user/all')
